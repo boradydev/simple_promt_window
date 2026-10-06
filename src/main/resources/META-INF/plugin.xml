@@ -5,7 +5,7 @@
 
     <!-- Public plugin name should be written in Title Case.
      Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
-    <name>Simple_promt_window</name>
+    <name>Simple Prompt Window</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor url="https://www.yourcompany.com">YourCompany</vendor>
@@ -21,6 +21,8 @@
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
+    <idea-version since-build="252"/>
+
     <resource-bundle>messages.MyMessageBundle</resource-bundle>
 
     <!-- Extensions defined by the plugin.
@@ -29,7 +31,7 @@
         <toolWindow id="AiderPromptWindow"
             anchor="right"
             factoryClass="com.example.aiderplugin.AiderToolWindowFactory"
-            icon="AllIcons.Actions.Refresh"/>
+            icon="AllIcons.Actions.Annotate"/>
     </extensions>
 
 </idea-plugin>
