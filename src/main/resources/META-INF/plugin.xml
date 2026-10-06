@@ -26,8 +26,10 @@
     <!-- Extensions defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow id="MyToolWindow" factoryClass="com.example.MyToolWindowFactory"
-                    icon="AllIcons.Toolwindows.ToolWindowPalette"/>
+        <toolWindow id="AiderPromptWindow"
+            anchor="right"
+            factoryClass="com.example.aiderplugin.AiderToolWindowFactory"
+            icon="AllIcons.Actions.Refresh"/>
     </extensions>
 
 </idea-plugin>
